@@ -14,10 +14,6 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         HandleMovement();
-        //transform.position += Time.deltaTime * moveSpeed * moveDirection;
-        //fieldOfView.SetAimDirection(transform.forward);
-        //fieldOfView.StartingAngle = transform.rotation.eulerAngles.y;
-        //fieldOfView.Origin = transform.position;
     }
 
     private void HandleMovement()

@@ -8,10 +8,6 @@ public class FieldOfView3 : MonoBehaviour
     private void Start()
     {
         viewCollider = GetComponent<SphereCollider>();
-        /*var excludedLayerMask = LayerMask.GetMask("Obstacles", "Default");
-        var includedLayerMask = LayerMask.GetMask("Players");
-        viewCollider.excludeLayers = excludedLayerMask;
-        viewCollider.includeLayers = includedLayerMask;*/
     }
 
     private void OnTriggerEnter(Collider other)
